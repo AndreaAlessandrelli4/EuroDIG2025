@@ -85,9 +85,9 @@ if page == 'Overview':
     # Header images
     c1, c2, c3, c4, c5 = st.columns([0.5, 0.5, 1, 0.5, 0.5])
     with c1:
-        st.image("/Foto/COE-Logo-Quadri.png", use_container_width=True)
+        st.image("Foto/COE-Logo-Quadri.png", use_container_width=True)
     with c5:
-        st.image("/Foto/euroAVVOVChat.png", use_container_width=True)
+        st.image("Foto/euroAVVOVChat.png", use_container_width=True)
     with c3:
         # Title & subtitle
         st.markdown("<h1 style='text-align:center;'>LexiFind</h1>", unsafe_allow_html=True)
@@ -143,12 +143,12 @@ if page == 'Overview':
     st.markdown("<hr style='border:1px solid #007bff;'>", unsafe_allow_html=True)
     team_cols1 = st.columns([1,1,0.7,0.3,0.7,0.3,0.7,1,1,0.1])
     with team_cols1[4]:
-        st.image("/Foto/logo.png", use_container_width=True)
+        st.image("Foto/logo.png", use_container_width=True)
     st.markdown("<h3 style='text-align:center;'>The Team</h3>", unsafe_allow_html=True)
     
     team_cols = st.columns([1,1,0.7,0.3,0.7,0.3,0.7,1,1,0.1])
     with team_cols[2]:
-        st.image("/Foto/Pasquale.png", use_container_width=True)
+        st.image("Foto/Pasquale.png", use_container_width=True)
         st.markdown(
             """
             <div style='text-align:center;'>
@@ -159,7 +159,7 @@ if page == 'Overview':
             unsafe_allow_html=True,
         )
     with team_cols[4]:
-        st.image("/Foto/Andrea.png", use_container_width=True)
+        st.image("Foto/Andrea.png", use_container_width=True)
         st.markdown(
             """
             <div style='text-align:center;'>
@@ -170,7 +170,7 @@ if page == 'Overview':
             unsafe_allow_html=True,
         )
     with team_cols[6]:
-        st.image("/Foto/Fabrizio.png", use_container_width=True)
+        st.image("Foto/Fabrizio.png", use_container_width=True)
         st.markdown(
             """
             <div style='text-align:center;'>
@@ -202,9 +202,9 @@ else:
 
     c1, c2, c3, c4, c5 = st.columns([0.5, 0.5, 1, 0.5, 0.5])
     with c1:
-        st.image("/Foto/euroAVVOVChat.png", use_container_width=True)
+        st.image("Foto/euroAVVOVChat.png", use_container_width=True)
     with c5:
-        st.image("/Foto/logo.png", use_container_width=True)
+        st.image("Foto/logo.png", use_container_width=True)
     with c3:
         # Title & subtitle
         st.markdown("<h1 style='text-align:center;'>LexiFind</h1>", unsafe_allow_html=True)
