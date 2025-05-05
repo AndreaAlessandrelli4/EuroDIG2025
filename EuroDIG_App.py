@@ -5,7 +5,7 @@ import streamlit as st
 from sentence_transformers import SentenceTransformer
 from FlagEmbedding import FlagReranker
 from huggingface_hub import login
-from transformers import pipeline
+#from transformers import pipeline
 from utils import (
     extract_text_from_pdf,
     cleaning_page,
