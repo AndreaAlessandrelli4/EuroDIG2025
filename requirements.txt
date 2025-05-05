@@ -1,8 +1,8 @@
-weaviate-client==3.26.5
-streamlit==1.41.1
+weaviate-client==4.7.1
+streamlit==1.40.2
 sentence-transformers==3.0.1
-FlagEmbedding
-torch==2.5.0
+FlagEmbedding==1.2.11
+torch==2.6.0
 numpy==1.26.4
 pdfplumber
 PyMuPDF
