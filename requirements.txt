@@ -1,6 +1,7 @@
 weaviate-client==3.26.5
 streamlit==1.41.1
 sentence-transformers==3.0.1
+FlagEmbedding
 torch==2.5.0
 numpy==1.26.4
 pdfplumber
