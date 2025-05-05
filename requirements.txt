@@ -3,6 +3,7 @@ streamlit==1.40.2
 sentence-transformers==3.0.1
 FlagEmbedding==1.2.11
 torch==2.6.0
+peft==0.11.1
 numpy==1.26.4
 pdfplumber
 PyMuPDF
